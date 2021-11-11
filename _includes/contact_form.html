@@ -1,0 +1,39 @@
+<form class="needs-validation" action="mailto:{{ site.email }}" method="post">
+  <label for="emailInput" class="form-label">E-mail</label>
+  <div class="input-group has-validation mb-3">
+    <span class="input-group-text" id="inputGroupPrepend">@</span>
+    <input type="email" class="form-control" id="emailInput" aria-describedby="inputGroupPrepend" required>
+    <div class="invalid-feedback"> Your e-mail is required."</div>
+  </div>
+  <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+  <br>
+  <label for="textarea1" class="form-label">Message</label>
+  <div class="input-group mb-3">
+    <textarea class="form-control" id="textarea1" rows="5"></textarea>
+  </div>
+  <div id="messageHelp" class="form-text">What do you want to say?</div>
+  <br>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+</script>

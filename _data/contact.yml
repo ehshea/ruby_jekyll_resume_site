@@ -1,0 +1,6 @@
+- name: Github
+  url: https://github.com/ehshea
+  logo_img: https://commons.wikimedia.org/wiki/File:GitHub_Mark.png
+- name: LinkedIn
+  url: https://www.linkedin.com/in/ehshea/
+  logo_img: /assets/img/LI-In-Bug.png

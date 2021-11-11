@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog
+---
+<h2>Latest Posts</h2>
+<br>
+<ul class="list-group">
+  {% for post in site.posts %}
+    <li class="list-group-item list-group-item-action">
+      <h3><a class="text-danger" href="{{ post.url }}">{{ post.title | capitalize }}</a></h3>
+      <p>{{ post.excerpt }}
+        <small class="text-muted">{{ post.date | date_to_string }}</small>
+      </p>
+    </li>
+  {% endfor %}
+</ul>

@@ -27,11 +27,10 @@ github_username:  ehshea
 plugins:
   - jekyll-feed
   - jekyll-coffeescript
-  - jekyll-sass-converter
 
 sass:
   sass_dir: _sass
-  style: compressed
+  style: expanded
 
 # Exclude from processing.
 # The following items will not be processed, by default.

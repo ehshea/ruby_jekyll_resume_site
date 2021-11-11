@@ -1,0 +1,24 @@
+- name: CodePen
+  url: https://codepen.io/ehshea
+  category: code
+  logo_img: https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png
+  logo_name: https://upload.wikimedia.org/wikipedia/commons/9/9a/CodePen_logo.png
+  description: This is where my older FreeCodeCamp work on the frontend dev course is stored
+- name: Github
+  url: https://github.com/ehshea
+  category: code
+  logo_img: https://upload.wikimedia.org/wikipedia/commons/4/4a/GitHub_Mark.png
+  logo_name: https://upload.wikimedia.org/wikipedia/commons/5/54/GitHub_Logo.png
+  description: In progress collection of fun programming things I work on in my spare time
+- name: FreeCodeCamp
+  url: https://www.freecodecamp.org/ehshea
+  category: learning
+  logo_img: https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg
+  logo_name: https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg
+  description: This is where I worked on learning JavaScript for frontend develpment
+- name: SoloLearn
+  url: https://www.sololearn.com/profile/11350036
+  category: learning
+  logo_img: https://blob.sololearn.com/avatars/sololearn.png
+  logo_name: https://upload.wikimedia.org/wikipedia/commons/5/53/SoloLearn_logo.svg
+  description: This is where I took courses on my phone during my commute in the before times
