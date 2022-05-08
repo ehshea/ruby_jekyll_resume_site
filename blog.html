@@ -4,7 +4,7 @@ title: blog
 ---
 <h2>Latest Posts</h2>
 <br>
-<ul class="list-group">
+<ul id=blog_list class="list-group">
   {% for post in site.posts %}
     <li class="list-group-item list-group-item-action">
       <h3><a class="text-danger" href="{{ post.url }}">{{ post.title | capitalize }}</a></h3>
